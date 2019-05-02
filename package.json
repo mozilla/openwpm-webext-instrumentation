@@ -18,6 +18,7 @@
     "fix": "run-s fix:*",
     "fix:prettier": "prettier \"src/**/*.ts\" --write",
     "fix:tslint": "tslint -t verbose --fix --project .",
+    "rsync-built-files-to-adjacent-openwpm-repo": "rsync -r -t -p -o -g -x --stats --delete -l -D build/ ../OpenWPM/automation/Extension/firefox/node_modules/openwpm-webext-instrumentation/build/",
     "test": "run-s build test:*",
     "test:lint": "tslint -t verbose --project . && prettier \"src/**/*.ts\" --list-different",
     "test:unit": "nyc ava",
