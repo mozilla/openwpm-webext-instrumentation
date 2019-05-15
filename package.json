@@ -7,7 +7,10 @@
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "repository": "https://github.com/mozilla/openwpm-webext-instrumentation",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mozilla/openwpm-webext-instrumentation.git"
+  },
   "keywords": [],
   "scripts": {
     "info": "npm-scripts-info",
