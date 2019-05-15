@@ -98,5 +98,9 @@
     "exclude": [
       "**/*.spec.js"
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/mozilla/openwpm/issues"
+  },
+  "homepage": "https://github.com/mozilla/openwpm#readme"
 }
